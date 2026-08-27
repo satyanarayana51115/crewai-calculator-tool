@@ -18,3 +18,24 @@ An agentic AI implementation using **CrewAI** that demonstrates custom Python to
    git clone https://github.com/narayana51115/crewai-calculator-tool.git
    cd crewai-calculator-tool
    ```
+2. **Create and activate virtual environment:**
+   ```
+   python -m venv venv
+   ```
+3. **On Windows:**
+   ```
+   venv\Scripts\activate
+   ```
+4. **On Mac/Linux:**
+   ```
+   source venv/bin/activate
+   ```
+5. **Install dependencies:**
+   ```
+   pip install -r requirements.txt
+   ```
+6. **Configure API Key:**
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+   
