@@ -38,4 +38,8 @@ An agentic AI implementation using **CrewAI** that demonstrates custom Python to
    ```
    OPENAI_API_KEY=your_openai_api_key_here
    ```
+7. **Run the agents:**
+   ```
+   python app.py
+   ```
    
