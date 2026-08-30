@@ -42,4 +42,17 @@ An agentic AI implementation using **CrewAI** that demonstrates custom Python to
    ```
    python app.py
    ```
+---
+
+## 🔁 Custom Tool Execution Flow
+
+```mermaid
+graph TD
+    A[Complex Math / Calculation Prompt] --> B[CrewAI Agent]
+    B -->|Calls Tool with Parameters| C[Custom Calculator Python Tool]
+    C -->|Executes Logic & Returns Value| B
+    B --> D[Final Formatted Calculation Report]
+```
+## 👨‍💻 Author
+**Satyanarayana** - [@satyanarayana51115](https://github.com/satyanarayana51115)
    
